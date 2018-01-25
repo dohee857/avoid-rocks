@@ -28,6 +28,7 @@ done = False
 # Used to manage how fast the screen updates
 clock = pygame.time.Clock()
 
+# Initialization of spaceship's position and speed
 ship_x = 500
 ship_y = 380
 ship_x_speed = 0
