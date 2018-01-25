@@ -89,7 +89,6 @@ while not done:
     elif ship_y > 728:
         ship_y = 727
 		ship_y_speed = 0
-    #print(ship_x, ship_y)
     
     # --- Go ahead and update the screen with what we've drawn.
     pygame.display.flip()
