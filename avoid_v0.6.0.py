@@ -1,6 +1,6 @@
 '''
 ELLAK - Python Course
-Avoid the Rocks v0.7.0
+Avoid the Rocks v0.6.0
  
 '''
 import pygame
@@ -20,7 +20,7 @@ screen = pygame.display.set_mode(size)
 spaceshipImg = pygame.image.load("spaceship.png")
 meteorImg    = pygame.image.load("meteor.png")
  
-pygame.display.set_caption("ELLAK - Pyhton Course - Avoid The Rocks v0.7.0")
+pygame.display.set_caption("ELLAK - Pyhton Course - Avoid The Rocks v0.6.0")
  
 # Loop until the user clicks the close button.
 done = False
@@ -77,15 +77,19 @@ while not done:
         ship_x += ship_x_speed
     elif ship_x < 0:
         ship_x = 1
+		ship_x_speed = 0
     elif ship_x > 984:
         ship_x = 983
+		ship_x_speed = 0
     if ship_y >= 0 and ship_y <= 728:
         ship_y += ship_y_speed
     elif ship_y < 0:
         ship_y = 1
+		ship_y_speed = 0
     elif ship_y > 728:
         ship_y = 727
-    print(ship_x, ship_y)
+		ship_y_speed = 0
+    #print(ship_x, ship_y)
     
     # --- Go ahead and update the screen with what we've drawn.
     pygame.display.flip()
