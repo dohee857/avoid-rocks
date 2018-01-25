@@ -73,7 +73,7 @@ while not done:
  
     # --- Drawing code should go here
     
-	screen.blit(spaceshipImg, (ship_x, ship_y))
+    screen.blit(spaceshipImg, (ship_x, ship_y))
     if ship_x >= 0 and ship_x <= 984:
         ship_x += ship_x_speed
     elif ship_x < 0:
