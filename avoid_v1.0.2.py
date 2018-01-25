@@ -18,7 +18,7 @@ screen = pygame.display.set_mode(size)
 # Load the background image 
 background_image = pygame.image.load("background.jpg").convert()
 
-pygame.display.set_caption('ELLAK - Python Lab - Avoid the rocks!')
+pygame.display.set_caption("ELLAK - Pyhton Course - Avoid The Rocks v1.0.2")
 clock = pygame.time.Clock()
 playerImg = pygame.image.load("spaceship.png")
 fireballImg = pygame.image.load("meteor.png")

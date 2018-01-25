@@ -21,7 +21,7 @@ screen = pygame.display.set_mode(size)
 spaceshipImg = pygame.image.load("spaceship.png")
 meteorImg    = pygame.image.load("meteor.png")
  
-pygame.display.set_caption("ELLAK - Python lab - Avoid The Rocks")
+pygame.display.set_caption("ELLAK - Pyhton Course - Avoid The Rocks v0.7.0")
  
 # Loop until the user clicks the close button.
 done = False
