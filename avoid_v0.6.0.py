@@ -78,18 +78,18 @@ while not done:
         ship_x += ship_x_speed
     elif ship_x < 0:
         ship_x = 1
-		ship_x_speed = 0
+	ship_x_speed = 0
     elif ship_x > 984:
         ship_x = 983
-		ship_x_speed = 0
+	ship_x_speed = 0
     if ship_y >= 0 and ship_y <= 728:
         ship_y += ship_y_speed
     elif ship_y < 0:
         ship_y = 1
-		ship_y_speed = 0
+	ship_y_speed = 0
     elif ship_y > 728:
         ship_y = 727
-		ship_y_speed = 0
+	ship_y_speed = 0
     
     # --- Go ahead and update the screen with what we've drawn.
     pygame.display.flip()
