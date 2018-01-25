@@ -14,7 +14,7 @@ RED = (255, 0, 0)
 pygame.init()
  
 # Set the width and height of the screen [width, height]
-size = (1024, 768)
+size = (800, 600)
 screen = pygame.display.set_mode(size)
 spaceshipImg = pygame.image.load("spaceship.png")
 meteorImg = pygame.image.load("meteor.png")
@@ -48,8 +48,8 @@ while not done:
  
     # --- Drawing code should go here
     
-    screen.blit(spaceshipImg, (480, 360))
-    screen.blit(meteorImg, (780, 460))
+    screen.blit(spaceshipImg, (380, 260))
+    screen.blit(meteorImg, (680, 460))
    
     # --- Go ahead and update the screen with what we've drawn.
     pygame.display.flip()
