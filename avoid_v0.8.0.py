@@ -74,7 +74,7 @@ while not done:
  
     # If you want a background image, replace this clear with blit'ing the
     # background image.
-    #screen.fill(display_color)
+    #screen.fill(GREY)
     screen.blit(background_image, [0, 0])
  
     # --- Drawing code should go here
