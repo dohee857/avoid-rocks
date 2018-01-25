@@ -90,9 +90,6 @@ while not done:
     elif ship_y > size[1]-spaceship_size[1]:
         ship_y = size[1]-spaceship_size[1]
         ship_y_speed = 0
-    print(ship_x, ship_y)
-    
-        
  
     # --- Go ahead and update the screen with what we've drawn.
     pygame.display.flip()
