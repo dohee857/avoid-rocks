@@ -1,10 +1,9 @@
 
 '''
 ELLAK - Python lab
-Avoid the Rocks v1.0.1
+Avoid the Rocks v1.0.2
  
 '''
-
 import pygame
 import random
 import time

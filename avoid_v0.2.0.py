@@ -1,6 +1,6 @@
 '''
 ELLAK - Python Course
-Avoid the Rocks v0.1
+Avoid the Rocks v0.2.0
  
 '''
 import pygame
@@ -17,8 +17,9 @@ pygame.init()
 size = (1024, 768)
 screen = pygame.display.set_mode(size)
 spaceshipImg = pygame.image.load("spaceship.png")
+meteorImg = pygame.image.load("meteor.png")
  
-pygame.display.set_caption("ELLAK - Pyhton Course - Avoid The Rocks v0.1")
+pygame.display.set_caption("ELLAK - May 2017 - Avoid The Rocks")
  
 # Loop until the user clicks the close button.
 done = False
@@ -48,7 +49,8 @@ while not done:
     # --- Drawing code should go here
     
     screen.blit(spaceshipImg, (480, 360))
- 
+    screen.blit(meteorImg, (780, 460))
+   
     # --- Go ahead and update the screen with what we've drawn.
     pygame.display.flip()
  

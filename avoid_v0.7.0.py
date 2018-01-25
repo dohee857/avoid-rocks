@@ -1,5 +1,5 @@
 '''
-ELLAK - Python lab
+ELLAK - Python Course
 Avoid the Rocks v0.7.0
  
 '''
