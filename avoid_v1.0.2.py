@@ -1,9 +1,7 @@
-
 '''
 ELLAK - Python lab
 Avoid the Rocks v1.0.2
- 
-'''
+ '''
 import pygame
 import random
 import time
@@ -133,7 +131,6 @@ class Fireball(object):
     def rectangle(self):
         return pygame.Rect(self.x, self.y, self.width, self.height)
 
-
 def game_loop():
     player = Player(size[0]/2, size[1]/2)
     fireballs = []
@@ -202,8 +199,6 @@ def game_loop():
         pygame.display.update()
         clock.tick(50)
     
-
-
 def main_screen():
     screen.fill((0,0,0))
     messages = ["Let's Play!",
@@ -241,6 +236,5 @@ def death_screen(score):
     pygame.display.update()
     time.sleep(2)
     main_screen()
-
 
 main_screen()
